@@ -33,6 +33,11 @@
             name: $_('basic.diff.title'),
             description: $_('basic.diff.description'),
             route: '/basic/diff'
+        },
+        {
+            name: $_('basic.integrate.title'),
+            description: $_('basic.integrate.description'),
+            route: '/basic/integrate'
         }
 	];
 </script>

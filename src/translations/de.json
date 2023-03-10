@@ -44,6 +44,11 @@
 			"title": "Ableitungen",
 			"description": "Leitet eine bestehende Funktion ab",
 			"how-often": "Wie oft?"
+		},
+		"integrate": {
+			"title": "Integration",
+			"description": "Integriert eine Funktion",
+			"how-often": "Wie oft?"
 		}
 	},
 	"vector": {
