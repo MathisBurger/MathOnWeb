@@ -7,17 +7,17 @@ import nerdamer from 'nerdamer/all.min';
  * @param variable The variable
  */
 export const diff = (func: string, variable: string) => {
-    try {
-        return nerdamer(`diff(${func}, ${variable})`);
-    } catch (e) {
-        return '';
-    }
-}
+	try {
+		return nerdamer(`diff(${func}, ${variable})`);
+	} catch (e) {
+		return '';
+	}
+};
 
 export const interate = (func: string, variable: string) => {
-    try {
-        return nerdamer(`integrate(${func}, ${variable})`);
-    } catch (e) {
-        return '';
-    }
-}
+	try {
+		return nerdamer(`integrate(${func}, ${variable})`);
+	} catch (e) {
+		return '';
+	}
+};
