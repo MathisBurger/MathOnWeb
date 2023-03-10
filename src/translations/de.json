@@ -39,6 +39,11 @@
 		"derivation-former": {
 			"title": "Ableitungen",
 			"description": "Leitet eine Funktion ab"
+		},
+		"diff": {
+			"title": "Ableitungen",
+			"description": "Leitet eine bestehende Funktion ab",
+			"how-often": "Wie oft?"
 		}
 	},
 	"vector": {

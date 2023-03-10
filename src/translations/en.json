@@ -39,6 +39,11 @@
 		"derivation-former": {
 			"title": "Derivation",
 			"description": "Calculates a derivation of a function"
+		},
+		"diff": {
+			"title": "Doff",
+			"description": "Diffs a function",
+			"how-often": "How often?"
 		}
 	},
 	"vector": {
