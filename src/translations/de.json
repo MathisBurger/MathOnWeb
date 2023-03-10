@@ -49,6 +49,12 @@
 			"title": "Integration",
 			"description": "Integriert eine Funktion",
 			"how-often": "Wie oft?"
+		},
+		"rotational-volume": {
+			"title": "Rotationsvolumen",
+			"description": "Berechnet das Rotationsvolumen einer Funktion",
+			"from": "Von",
+			"to": "Bis"
 		}
 	},
 	"vector": {

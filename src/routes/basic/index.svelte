@@ -38,6 +38,11 @@
 			name: $_('basic.integrate.title'),
 			description: $_('basic.integrate.description'),
 			route: '/basic/integrate'
+		},
+		{
+			name: $_('basic.rotational-volume.title'),
+			description: $_('basic.rotational-volume.description'),
+			route: '/basic/rotational-volume'
 		}
 	];
 </script>

@@ -49,6 +49,12 @@
 			"title": "Integrate",
 			"description": "Integrates a function",
 			"how-often": "How often?"
+		},
+		"rotational-volume": {
+			"title": "Rotational volume",
+			"description": "Calculates the rotational volume of a function",
+			"from": "From",
+			"to": "To"
 		}
 	},
 	"vector": {
