@@ -2,6 +2,8 @@
 	"name": "mathonweb",
 	"version": "1.6.0",
 	"scripts": {
+		"preinstall": "[ -d function-plot ] && echo \"External packages installed\" || git clone https://github.com/mauriciopoppe/function-plot.git",
+		"postinstall": "node src/prepare-function-plot.js && npm i ./function-plot",
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build && node src/fix-typos.js",
 		"preview": "svelte-kit preview",
@@ -13,7 +15,7 @@
 	"devDependencies": {
 		"@rollup/plugin-json": "^4.1.0",
 		"@sveltejs/adapter-static": "1.0.0-next.13",
-		"@sveltejs/kit": "1.0.0-next.195",
+		"@sveltejs/kit": "1.0.0-next.201",
 		"@types/cookie": "^0.4.0",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",
 		"@typescript-eslint/parser": "^4.19.0",
@@ -37,6 +39,7 @@
 		"@tsconfig/svelte": "^2.0.1",
 		"cookie": "^0.4.1",
 		"fs": "0.0.1-security",
+		"function-plot": "file:function-plot",
 		"nerdamer": "^1.1.13",
 		"node-sass": "8.0.0",
 		"path": "^0.12.7",

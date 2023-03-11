@@ -9,7 +9,7 @@ const config = {
 		replace: [['process.env.NODE_ENV', JSON.stringify(process.env.NODE_ENV)]],
 		scss: {
 			includePaths: ['src']
-		}
+		},
 	}),
 
 	kit: {
@@ -18,7 +18,14 @@ const config = {
 			assets: 'build',
 			fallback: null
 		}),
-		target: '#svelte'
+		target: '#svelte',
+		vite: {
+			server: {
+				fs: {
+					allow: ['function-plot']
+				}
+			}
+		}
 	}
 };
 
