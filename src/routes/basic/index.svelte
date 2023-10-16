@@ -2,7 +2,6 @@
 	import ListSelector from '../../lib/listSelector.svelte';
 	import type { ListSelectorElement } from '../../typings/ListSelectorElement';
 	import { _ } from 'svelte-i18n';
-	import { roundTo } from '$lib/custom-math';
 
 	let apps: ListSelectorElement[] = [
 		{
@@ -31,9 +30,14 @@
 			route: '/basic/logarithm'
 		},
 		{
-			name: $_('basic.derivation-former.title'),
-			description: $_('basic.derivation-former.description'),
-			route: '/basic/derivation-former'
+			name: $_('basic.diff.title'),
+			description: $_('basic.diff.description'),
+			route: '/basic/diff'
+		},
+		{
+			name: $_('basic.integrate.title'),
+			description: $_('basic.integrate.description'),
+			route: '/basic/integrate'
 		}
 	];
 </script>

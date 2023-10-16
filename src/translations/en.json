@@ -39,6 +39,16 @@
 		"derivation-former": {
 			"title": "Derivation",
 			"description": "Calculates a derivation of a function"
+		},
+		"diff": {
+			"title": "Diff",
+			"description": "Diffs a function",
+			"how-often": "How often?"
+		},
+		"integrate": {
+			"title": "Integrate",
+			"description": "Integrates a function",
+			"how-often": "How often?"
 		}
 	},
 	"vector": {
