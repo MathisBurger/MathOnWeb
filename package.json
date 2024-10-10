@@ -35,7 +35,7 @@
 		"@fortawesome/free-solid-svg-icons": "^5.15.4",
 		"@rollup/plugin-typescript": "^8.2.5",
 		"@tsconfig/svelte": "^2.0.1",
-		"cookie": "^0.4.1",
+		"cookie": "^0.7.0",
 		"fs": "0.0.1-security",
 		"nerdamer": "^1.1.13",
 		"node-sass": "8.0.0",
