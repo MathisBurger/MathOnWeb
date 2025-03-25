@@ -27,3 +27,9 @@ Everyone who wants to contribute to this project is allowed to do so. Just fork 
 
 The master branch is hosted as github-pages webpage. This requires some extra configuration and parsing. That happens in the `fix-typos.js`. This file makes the svelte kit build output compatible with github pages. If you want to host your app on github-pages you have to copy this
 configurations and scripts to make the application function properly. The extra configuration is not required, if you want to host your application on an external webserver. You just need to copy the build output into the documentroot of your webserver.
+
+# Svelte dependencies
+
+I decided to stay legacy with this project. There will be no future upgrades of svelte. I like the early day structure and because it is only a simple frontend
+I will not need any of the new features that svelte offers in the newer versions. Therefore I will stay with the old depdencies and only ship new functionality, but no more upgrades of the
+framework itself.
