@@ -3,7 +3,7 @@
 <hr>
 <strong>A simple webapp built to make math homework easier</strong><br><br>
 
-<img src="https://img.shields.io/github/license/mathisburger/MathOnWeb?style=for-the-badge"> 
+<img src="https://img.shields.io/github/license/mathisburger/MathOnWeb?style=for-the-badge">
 <img src="https://img.shields.io/github/v/release/mathisburger/MathOnWeb?style=for-the-badge">
 </div>
 <hr>
@@ -28,11 +28,8 @@ Everyone who wants to contribute to this project is allowed to do so. Just fork 
 The master branch is hosted as github-pages webpage. This requires some extra configuration and parsing. That happens in the `fix-typos.js`. This file makes the svelte kit build output compatible with github pages. If you want to host your app on github-pages you have to copy this
 configurations and scripts to make the application function properly. The extra configuration is not required, if you want to host your application on an external webserver. You just need to copy the build output into the documentroot of your webserver.
 
-# Techstack
+# Svelte dependencies
 
-The techstack of MathOnWeb is not very large, because it is only an webapp without any server or other things.<br>
-svelte => 3.44.0<br>
-svelte/kit => 1.0.0-next.195<br>
-prettier => 2.2.1<br>
-typescript => 4.0.0<br>
-compiler => ES2020
+I decided to stay legacy with this project. There will be no future upgrades of svelte. I like the early day structure and because it is only a simple frontend
+I will not need any of the new features that svelte offers in the newer versions. Therefore I will stay with the old depdencies and only ship new functionality, but no more upgrades of the
+framework itself.
